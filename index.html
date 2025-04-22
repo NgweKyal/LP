@@ -1,78 +1,29 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>インターネットサービス | 快適な暮らしを実現</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Pacifico&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <style>
-      body {
-        font-family: 'Segoe UI', sans-serif;
-        background-color: #f9f9f9;
-        color: #333;
-      }
-
-      .header {
-        background: linear-gradient(135deg, #1d3557, #457b9d);
-        color: white;
-        padding: 120px 0;
-        text-align: center;
-      }
-
-      .header h1 {
-        font-size: 4rem;
-        font-weight: bold;
-      }
-
-      .header p {
-        font-size: 1.25rem;
-        margin-top: 15px;
-      }
-
-      .btn-custom {
-        background-color: #f1faee;
-        color: #1d3557;
-        border: none;
-        font-weight: 600;
-      }
-
-      .btn-custom:hover {
-        background-color: #a8dadc;
-        color: #1d3557;
-      }
-
-      .section-title {
-        font-size: 2rem;
-        font-weight: bold;
-        margin-bottom: 40px;
-      }
-
-      .feature-icon {
-        font-size: 48px;
-        color: #457b9d;
-        margin-bottom: 15px;
-      }
-
-      .feature-card {
-        background: white;
-        padding: 30px;
-        border-radius: 16px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-        transition: transform 0.3s ease;
-      }
-
-      .feature-card:hover {
-        transform: translateY(-5px);
-      }
-
-      .highlight-section {
-        background-color: #f1faee;
-        padding: 60px 0;
-      }
-
       .footer {
         background-color: #1d3557;
         color: white;
@@ -83,86 +34,76 @@
         color: #f1faee;
         text-decoration: underline;
       }
-
-      @media (max-width: 768px) {
-        .header h1 {
-          font-size: 2.5rem;
-        }
-      }
     </style>
   </head>
   <body>
-    <!-- ヘッダー -->
-    <section class="header">
-      <div class="container">
-        <h1>Fastest Internet</h1>
-        <p>高速で安定した接続と、あなたに最適なITソリューションをご提供します。</p>
-        <a href="#contact" class="btn btn-custom btn-lg mt-4">お問い合わせ</a>
-      </div>
-    </section>
-
-    <!-- 特徴 -->
-    <section class="py-5">
-      <div class="container text-center">
-        <div class="section-title">私たちのサービス</div>
-        <div class="row g-4">
-          <div class="col-md-4">
-            <div class="feature-card">
-              <div class="feature-icon">🌐</div>
-              <h5>高速インターネット</h5>
-              <p>家庭やビジネスに最適な、高速で安定した回線を提供します。</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="feature-card">
-              <div class="feature-icon">☁️</div>
-              <h5>クラウドソリューション</h5>
-              <p>データ保存やチーム共有をスムーズに。安全でスケーラブルな環境です。</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="feature-card">
-              <div class="feature-icon">💻</div>
-              <h5>Webサイト制作</h5>
-              <p>あなたの魅力を伝える、洗練されたホームページを制作します。</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 紹介 -->
-    <section class="highlight-section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 mb-4 mb-md-0">
-            <img
-              src="https://www.loginbusiness.com/wp-content/themes/yootheme/cache/0f/business-internet-0f85249e.jpeg"
-              alt="インターネットサービスのイメージ"
-              class="img-fluid rounded shadow"
-            />
-          </div>
-          <div class="col-md-6">
-            <h3>生活とビジネスに新たな可能性を</h3>
-            <p>
-              私たちはお客様のニーズに合わせたIT環境を提案し、導入からサポートまで一貫してお手伝いします。
-              <br />快適で効率的なネットワーク環境を、あなたのもとに。
-            </p>
-            <a href="#contact" class="btn btn-primary mt-3">無料相談はこちら</a>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="" width="120" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item me-5">
+                <a
+                  class="nav-link active text-decoration-underline"
+                  aria-current="page"
+                  href="#"
+                  >ホーム</a
+                >
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#">サービス</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">お問い合わせ</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
-    </section>
+      </nav>
 
-    <!-- フッター -->
-    <footer id="contact" class="footer text-center">
-      <div class="container">
-        <h4>お問い合わせ</h4>
-        <p>サービス内容や料金についてのご相談はお気軽にどうぞ。</p>
-        <a href="mailto:info@example.com" class="btn btn-outline-light mt-2">メールで問い合わせる</a>
-      </div>
-    </footer>
+      <!-- Body-->
+      <div class="row mt-4 ms-3 mb-5">
+        <div class="col-md-6">
+          
+          <p class="mt-3 display-5 fw-bolder">あなたの毎日に、<br>もっと快適なインターネットを。</p>
+          <p class="text-muted fs-6">
+            設置・変更・サポートも安心。
+          </p>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+          <button class="btn text-white btnbuynow mt-5 me-4">今すぐ申し込む</button>
+          <button class="btn bg-white btngotoshop mt-5">特徴を見る</button>
+
+          <div class="mt-5 mb-5">
+            <img src="./fb.png" alt="" class="me-3" width="35"/>
+            <img src="./tw.png" alt="" class="me-3" width="35" />
+            <img src="./ig.png" alt="" width="35" />
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="./plant.png" class="img-fluid" alt="...">
+        </div>
+      </div>
+    </div>
   </body>
+  <footer id="contact" class="footer text-center">
+    <div class="container">
+      <h4>お問い合わせ</h4>
+      <p>サービス内容や料金についてのご相談はお気軽にどうぞ。</p>
+      <a href="mailto:info@example.com" class="btn btn-outline-light mt-2">メールで問い合わせる</a>
+    </div>
+  </footer>
 </html>

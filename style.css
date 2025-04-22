@@ -1,0 +1,25 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+.btnnature{
+     padding: 2px 30px 2px 30px !important;
+     background-color: #05A359 !important;
+     font-family: 'Pacifico', sans-serif;
+     border-radius: 8px !important;
+}
+
+.btnbuynow{
+     padding: 5px 30px 5px 30px !important;
+     background-color: #05A359 !important;
+     font-family: 'Pacifico', sans-serif;
+     border-radius: 8px !important;
+}
+
+.btngotoshop{
+      padding: 5px 30px 5px 30px !important;
+      font-family: 'Pacifico', sans-serif;
+      color: #05A359 !important;
+      border-radius: 8px !important;
+      border: 2px solid #05A359 !important;
+}
